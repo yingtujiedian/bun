@@ -46,9 +46,8 @@
 * 其他变量可自行添加在哪吒变量后面，参考上方变量表，例如固定隧道等，每个变量之间有一个空格
 * 订阅：ip:端口/sub
 ```
-apt-get update && apt-get install -y curl nodejs npm screen && curl -O https://raw.githubusercontent.com/eooce/nodejs-argo/main/index.js && curl -O https://raw.githubusercontent.com/eooce/nodejs-argo/main/package.json && npm install && chmod +x index.js && NAME=Vls PORT=3000 NEZHA_SERVER=nz.abcd.cn NEZHA_PORT=5555 NEZHA_KEY=12345678 screen node index.js
+apt-get update && apt-get install -y curl nodejs npm screen && curl -O https://raw.githubusercontent.com/eooce/nodejs-argo/main/index.js && curl -O https://raw.githubusercontent.com/eooce/nodejs-argo/main/package.json && npm install && chmod +x index.js && NAME=Vls PORT=3000 UUID=8586556b-da04-4f70-91f7-2292cbd335aa ARGO_DOMAIN=tyong.rg520.dpdns.org ARGO_AUTH=eyJhIjoiNzdiNzY1YmViZjhlMGRiZDAwZjg0MjRiOTM4NWI0ZGUiLCJ0IjoiMzAwNjk5ODYtMTcxMy00MGJhLTgxZGItODAzNmZjOTk1NDRkIiwicyI6Ik1UaGhZV1ppTlRFdFlUTmtaaTAwWWpOa0xUbGtabVF0WWpoaU5qaGlNbVU0WkdSaSJ9 screen node index.js
 ```
-  
   
 # 免责声明
 * 本程序仅供学习了解, 非盈利目的，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权, 如转载须注明来源。
